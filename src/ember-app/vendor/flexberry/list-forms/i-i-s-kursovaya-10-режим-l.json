@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-10-режим-e",
+  "editForm": "i-i-s-kursovaya-10-режим-e",
+  "external": false,
+  "caption": "Режим",
+  "name": "IISKursovaya_10РежимL",
+  "className": "РежимL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-режим",
+      "modelProjection": "РежимL"
+    }
+  ]
+}

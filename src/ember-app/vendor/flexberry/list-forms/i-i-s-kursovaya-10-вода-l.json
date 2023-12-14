@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-10-вода-e",
+  "editForm": "i-i-s-kursovaya-10-вода-e",
+  "external": false,
+  "caption": "Вода",
+  "name": "IISKursovaya_10ВодаL",
+  "className": "ВодаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-вода",
+      "modelProjection": "ВодаL"
+    }
+  ]
+}

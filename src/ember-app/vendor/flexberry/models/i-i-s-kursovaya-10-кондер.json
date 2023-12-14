@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISKursovaya_10Кондер",
+  "modelName": "i-i-s-kursovaya-10-кондер",
+  "className": "Кондер",
+  "nameSpace": "IIS.Kursovaya_10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кондицион",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КондерE",
+      "modelName": "i-i-s-kursovaya-10-кондер",
+      "attrs": [
+        {
+          "name": "кондицион",
+          "caption": "Кондицион",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КондерL",
+      "modelName": "i-i-s-kursovaya-10-кондер",
+      "attrs": [
+        {
+          "name": "кондицион",
+          "caption": "Кондицион",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

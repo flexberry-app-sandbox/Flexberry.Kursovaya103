@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-10-температуры-e",
+  "editForm": "i-i-s-kursovaya-10-температуры-e",
+  "external": false,
+  "caption": "Температуры",
+  "name": "IISKursovaya_10температурыL",
+  "className": "температурыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-температуры",
+      "modelProjection": "температурыL"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Сбои",
+  "name": "IISKursovaya_10СбоиE",
+  "className": "СбоиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-сбои",
+      "modelProjection": "СбоиE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-10-отчет-e",
+  "editForm": "i-i-s-kursovaya-10-отчет-e",
+  "external": false,
+  "caption": "Отчет",
+  "name": "IISKursovaya_10ОтчетL",
+  "className": "ОтчетL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-отчет",
+      "modelProjection": "ОтчетL"
+    }
+  ]
+}

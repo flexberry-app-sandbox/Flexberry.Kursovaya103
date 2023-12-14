@@ -1,0 +1,78 @@
+﻿{
+  "applicationCaption": "Kursovaya_10",
+  "applicationTitle": "Kursovaya_10",
+  "items": [
+    {
+      "link": null,
+      "menuName": "kursovaya-10",
+      "caption": "Kursovaya_10",
+      "title": "Kursovaya_10",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya-10-вода-l",
+          "menuName": null,
+          "caption": "Вода",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-10-список-програм-l",
+          "menuName": null,
+          "caption": "Список програм",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-10-сбои-l",
+          "menuName": null,
+          "caption": "Сбои",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-10-время-l",
+          "menuName": null,
+          "caption": "Время",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-10-кондер-l",
+          "menuName": null,
+          "caption": "Кондер",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-10-режим-l",
+          "menuName": null,
+          "caption": "Режим",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-10-отчет-l",
+          "menuName": null,
+          "caption": "Отчет",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-10-моющее-сред-l",
+          "menuName": null,
+          "caption": "Моющее сред",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-10-температуры-l",
+          "menuName": null,
+          "caption": "Температуры",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

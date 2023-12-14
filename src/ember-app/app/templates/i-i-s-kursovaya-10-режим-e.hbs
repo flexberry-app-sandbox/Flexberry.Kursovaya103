@@ -1,0 +1,127 @@
+<h3 class="ui header">{{t "forms.i-i-s-kursovaya-10-режим-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.название
+      class=(if (v-get validationModel "название" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursovaya-10-режим-e.название-caption")
+      data-test-i-i-s-kursovaya-10-режим-e-название=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "название" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya-10-режим-e.моющееСред-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.моющееСред
+      displayAttributeName="моющее"
+      autocomplete=true
+      relationName="моющееСред"
+      projection="МоющееСредL"
+      title=(t "forms.i-i-s-kursovaya-10-режим-e.моющееСред-caption")
+      readonly=readonly
+      componentName="моющееСредLookup"
+      class=(if (v-get validationModel "моющееСред" "isInvalid") "error")
+      data-test-i-i-s-kursovaya-10-режим-e-моющееСред=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "моющееСред" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya-10-режим-e.температуры-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.температуры
+      displayAttributeName="температура"
+      autocomplete=true
+      relationName="температуры"
+      projection="температурыL"
+      title=(t "forms.i-i-s-kursovaya-10-режим-e.температуры-caption")
+      readonly=readonly
+      componentName="температурыLookup"
+      class=(if (v-get validationModel "температуры" "isInvalid") "error")
+      data-test-i-i-s-kursovaya-10-режим-e-температуры=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "температуры" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya-10-режим-e.кондер-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.кондер
+      displayAttributeName="кондицион"
+      autocomplete=true
+      relationName="кондер"
+      projection="КондерL"
+      title=(t "forms.i-i-s-kursovaya-10-режим-e.кондер-caption")
+      readonly=readonly
+      componentName="кондерLookup"
+      class=(if (v-get validationModel "кондер" "isInvalid") "error")
+      data-test-i-i-s-kursovaya-10-режим-e-кондер=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "кондер" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya-10-режим-e.вода-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.вода
+      displayAttributeName="вода"
+      autocomplete=true
+      relationName="вода"
+      projection="ВодаL"
+      title=(t "forms.i-i-s-kursovaya-10-режим-e.вода-caption")
+      readonly=readonly
+      componentName="водаLookup"
+      class=(if (v-get validationModel "вода" "isInvalid") "error")
+      data-test-i-i-s-kursovaya-10-режим-e-вода=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "вода" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursovaya-10-режим-e.время-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.время
+      displayAttributeName="время"
+      autocomplete=true
+      relationName="время"
+      projection="ВремяL"
+      title=(t "forms.i-i-s-kursovaya-10-режим-e.время-caption")
+      readonly=readonly
+      componentName="времяLookup"
+      class=(if (v-get validationModel "время" "isInvalid") "error")
+      data-test-i-i-s-kursovaya-10-режим-e-время=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "время" "message")}}
+  </div>
+</form>

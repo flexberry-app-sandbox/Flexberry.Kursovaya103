@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Вода",
+  "name": "IISKursovaya_10ВодаE",
+  "className": "ВодаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-вода",
+      "modelProjection": "ВодаE"
+    }
+  ]
+}

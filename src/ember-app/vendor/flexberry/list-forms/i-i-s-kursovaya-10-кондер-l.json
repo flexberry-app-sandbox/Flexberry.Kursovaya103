@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-10-кондер-e",
+  "editForm": "i-i-s-kursovaya-10-кондер-e",
+  "external": false,
+  "caption": "Кондер",
+  "name": "IISKursovaya_10КондерL",
+  "className": "КондерL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-кондер",
+      "modelProjection": "КондерL"
+    }
+  ]
+}

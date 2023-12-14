@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Моющее сред",
+  "name": "IISKursovaya_10МоющееСредE",
+  "className": "МоющееСредE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-моющее-сред",
+      "modelProjection": "МоющееСредE"
+    }
+  ]
+}

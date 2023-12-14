@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISKursovaya_10Время",
+  "modelName": "i-i-s-kursovaya-10-время",
+  "className": "Время",
+  "nameSpace": "IIS.Kursovaya_10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "время",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВремяE",
+      "modelName": "i-i-s-kursovaya-10-время",
+      "attrs": [
+        {
+          "name": "время",
+          "caption": "Время",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ВремяL",
+      "modelName": "i-i-s-kursovaya-10-время",
+      "attrs": [
+        {
+          "name": "время",
+          "caption": "Время",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

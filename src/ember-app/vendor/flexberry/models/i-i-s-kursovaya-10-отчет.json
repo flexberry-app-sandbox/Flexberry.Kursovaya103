@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISKursovaya_10Отчет",
+  "modelName": "i-i-s-kursovaya-10-отчет",
+  "className": "Отчет",
+  "nameSpace": "IIS.Kursovaya_10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "тчПрограм",
+      "relatedTo": "i-i-s-kursovaya-10-тч-програм",
+      "inverse": "отчет"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ОтчетE",
+      "modelName": "i-i-s-kursovaya-10-отчет",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ТчПрограмE",
+          "caption": "Тч програм",
+          "name": "тчПрограм",
+          "relatedTo": "i-i-s-kursovaya-10-тч-програм",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ОтчетL",
+      "modelName": "i-i-s-kursovaya-10-отчет",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

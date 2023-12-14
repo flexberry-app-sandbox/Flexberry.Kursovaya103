@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Температуры",
+  "name": "IISKursovaya_10температурыE",
+  "className": "температурыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-температуры",
+      "modelProjection": "температурыE"
+    }
+  ]
+}

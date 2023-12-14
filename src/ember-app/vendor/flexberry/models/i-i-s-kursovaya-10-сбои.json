@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISKursovaya_10Сбои",
+  "modelName": "i-i-s-kursovaya-10-сбои",
+  "className": "Сбои",
+  "nameSpace": "IIS.Kursovaya_10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "время",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "ошибка",
+      "type": "i-i-s-kursovaya-10-код-ошибки",
+      "flexberryType": "КодОшибки",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СбоиE",
+      "modelName": "i-i-s-kursovaya-10-сбои",
+      "attrs": [
+        {
+          "name": "время",
+          "caption": "Время",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "ошибка",
+          "caption": "Ошибка",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СбоиL",
+      "modelName": "i-i-s-kursovaya-10-сбои",
+      "attrs": [
+        {
+          "name": "время",
+          "caption": "Время",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "ошибка",
+          "caption": "Ошибка",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

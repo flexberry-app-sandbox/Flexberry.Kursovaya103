@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-10-список-програм-e",
+  "editForm": "i-i-s-kursovaya-10-список-програм-e",
+  "external": false,
+  "caption": "Список програм",
+  "name": "IISKursovaya_10СписокПрограмL",
+  "className": "СписокПрограмL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-список-програм",
+      "modelProjection": "СписокПрограмL"
+    }
+  ]
+}

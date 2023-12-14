@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "режим",
+      "displayAttributeName": "название",
+      "required": true,
+      "relationName": "ТчПрограм.Режим",
+      "projection": "РежимL",
+      "detailModelName": "i-i-s-kursovaya-10-тч-програм"
+    }
+  ],
+  "external": false,
+  "caption": "Список програм",
+  "name": "IISKursovaya_10СписокПрограмE",
+  "className": "СписокПрограмE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-список-програм",
+      "modelProjection": "СписокПрограмE"
+    }
+  ]
+}

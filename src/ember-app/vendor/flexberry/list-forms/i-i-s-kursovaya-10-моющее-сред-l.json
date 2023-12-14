@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-10-моющее-сред-e",
+  "editForm": "i-i-s-kursovaya-10-моющее-сред-e",
+  "external": false,
+  "caption": "Моющее сред",
+  "name": "IISKursovaya_10МоющееСредL",
+  "className": "МоющееСредL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-моющее-сред",
+      "modelProjection": "МоющееСредL"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "МоющееСред",
+      "projection": "МоющееСредL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "температуры",
+      "projection": "температурыL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Кондер",
+      "projection": "КондерL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Вода",
+      "projection": "ВодаL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Время",
+      "projection": "ВремяL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Режим",
+  "name": "IISKursovaya_10РежимE",
+  "className": "РежимE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-режим",
+      "modelProjection": "РежимE"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Время",
+  "name": "IISKursovaya_10ВремяE",
+  "className": "ВремяE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-время",
+      "modelProjection": "ВремяE"
+    }
+  ]
+}

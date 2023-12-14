@@ -1,0 +1,302 @@
+﻿{
+  "name": "IISKursovaya_10Режим",
+  "modelName": "i-i-s-kursovaya-10-режим",
+  "className": "Режим",
+  "nameSpace": "IIS.Kursovaya_10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "название",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "вода",
+      "relatedTo": "i-i-s-kursovaya-10-вода",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "время",
+      "relatedTo": "i-i-s-kursovaya-10-время",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "кондер",
+      "relatedTo": "i-i-s-kursovaya-10-кондер",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "моющееСред",
+      "relatedTo": "i-i-s-kursovaya-10-моющее-сред",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "температуры",
+      "relatedTo": "i-i-s-kursovaya-10-температуры",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РежимE",
+      "modelName": "i-i-s-kursovaya-10-режим",
+      "attrs": [
+        {
+          "name": "название",
+          "caption": "Название",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Моющее",
+          "lookupValueField": "моющее",
+          "relationName": "МоющееСред",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "моющее",
+              "caption": "Моющее",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Моющее сред",
+          "name": "моющееСред",
+          "relatedTo": "i-i-s-kursovaya-10-моющее-сред",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Температура",
+          "lookupValueField": "температура",
+          "relationName": "температуры",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "температура",
+              "caption": "Температура",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Температуры",
+          "name": "температуры",
+          "relatedTo": "i-i-s-kursovaya-10-температуры",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Кондицион",
+          "lookupValueField": "кондицион",
+          "relationName": "Кондер",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "кондицион",
+              "caption": "Кондицион",
+              "hidden": true,
+              "index": 6
+            }
+          ],
+          "index": 5,
+          "type": "standard",
+          "caption": "Кондер",
+          "name": "кондер",
+          "relatedTo": "i-i-s-kursovaya-10-кондер",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Вода",
+          "lookupValueField": "вода",
+          "relationName": "Вода",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "вода",
+              "caption": "Вода",
+              "hidden": true,
+              "index": 8
+            }
+          ],
+          "index": 7,
+          "type": "standard",
+          "caption": "Вода",
+          "name": "вода",
+          "relatedTo": "i-i-s-kursovaya-10-вода",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Время",
+          "lookupValueField": "время",
+          "relationName": "Время",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "время",
+              "caption": "Время",
+              "hidden": true,
+              "index": 10
+            }
+          ],
+          "index": 9,
+          "type": "standard",
+          "caption": "Время",
+          "name": "время",
+          "relatedTo": "i-i-s-kursovaya-10-время",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "РежимL",
+      "modelName": "i-i-s-kursovaya-10-режим",
+      "attrs": [
+        {
+          "name": "название",
+          "caption": "Название",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "МоющееСред",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "моющее",
+              "caption": "Моющее",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Моющее",
+          "name": "моющееСред",
+          "relatedTo": "i-i-s-kursovaya-10-моющее-сред",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "температуры",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "температура",
+              "caption": "Температура",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Температура",
+          "name": "температуры",
+          "relatedTo": "i-i-s-kursovaya-10-температуры",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Кондер",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "кондицион",
+              "caption": "Кондицион",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Кондицион",
+          "name": "кондер",
+          "relatedTo": "i-i-s-kursovaya-10-кондер",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Вода",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "вода",
+              "caption": "Вода",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Вода",
+          "name": "вода",
+          "relatedTo": "i-i-s-kursovaya-10-вода",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Время",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "время",
+              "caption": "Время",
+              "hidden": false,
+              "index": 5
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Время",
+          "name": "время",
+          "relatedTo": "i-i-s-kursovaya-10-время",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

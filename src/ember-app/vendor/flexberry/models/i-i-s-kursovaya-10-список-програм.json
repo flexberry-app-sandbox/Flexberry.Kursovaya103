@@ -1,0 +1,62 @@
+﻿{
+  "name": "IISKursovaya_10СписокПрограм",
+  "modelName": "i-i-s-kursovaya-10-список-програм",
+  "className": "СписокПрограм",
+  "nameSpace": "IIS.Kursovaya_10",
+  "parentModelName": "i-i-s-kursovaya-10-отчет",
+  "parentClassName": "Отчет",
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "Now",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СписокПрограмE",
+      "modelName": "i-i-s-kursovaya-10-список-програм",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ТчПрограмE",
+          "caption": "Тч програм",
+          "name": "тчПрограм",
+          "relatedTo": "i-i-s-kursovaya-10-тч-програм",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "СписокПрограмL",
+      "modelName": "i-i-s-kursovaya-10-список-програм",
+      "attrs": [
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

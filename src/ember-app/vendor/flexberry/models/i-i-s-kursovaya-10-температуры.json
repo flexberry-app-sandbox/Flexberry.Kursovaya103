@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISKursovaya_10температуры",
+  "modelName": "i-i-s-kursovaya-10-температуры",
+  "className": "температуры",
+  "nameSpace": "IIS.Kursovaya_10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "температура",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "температурыE",
+      "modelName": "i-i-s-kursovaya-10-температуры",
+      "attrs": [
+        {
+          "name": "температура",
+          "caption": "Температура",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "температурыL",
+      "modelName": "i-i-s-kursovaya-10-температуры",
+      "attrs": [
+        {
+          "name": "температура",
+          "caption": "Температура",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

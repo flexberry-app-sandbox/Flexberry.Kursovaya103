@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISKursovaya_10МоющееСред",
+  "modelName": "i-i-s-kursovaya-10-моющее-сред",
+  "className": "МоющееСред",
+  "nameSpace": "IIS.Kursovaya_10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "моющее",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "МоющееСредE",
+      "modelName": "i-i-s-kursovaya-10-моющее-сред",
+      "attrs": [
+        {
+          "name": "моющее",
+          "caption": "Моющее",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "МоющееСредL",
+      "modelName": "i-i-s-kursovaya-10-моющее-сред",
+      "attrs": [
+        {
+          "name": "моющее",
+          "caption": "Моющее",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

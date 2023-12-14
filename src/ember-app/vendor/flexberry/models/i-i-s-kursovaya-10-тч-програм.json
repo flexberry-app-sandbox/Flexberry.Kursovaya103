@@ -1,0 +1,166 @@
+﻿{
+  "name": "IISKursovaya_10ТчПрограм",
+  "modelName": "i-i-s-kursovaya-10-тч-програм",
+  "className": "ТчПрограм",
+  "nameSpace": "IIS.Kursovaya_10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "режим",
+      "relatedTo": "i-i-s-kursovaya-10-режим",
+      "inverse": null
+    },
+    {
+      "polymorphic": true,
+      "presence": true,
+      "name": "отчет",
+      "relatedTo": "i-i-s-kursovaya-10-отчет",
+      "inverse": "тчПрограм"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТчПрограмE",
+      "modelName": "i-i-s-kursovaya-10-тч-програм",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Название",
+          "lookupValueField": "название",
+          "relationName": "Режим",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Режим.Вода",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "вода",
+                  "caption": "Вода",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "вода",
+              "relatedTo": "i-i-s-kursovaya-10-вода",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Режим.Время",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "время",
+                  "caption": "Время",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "время",
+              "relatedTo": "i-i-s-kursovaya-10-время",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Режим.Кондер",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "кондицион",
+                  "caption": "Кондицион",
+                  "hidden": false,
+                  "index": 4
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "кондер",
+              "relatedTo": "i-i-s-kursovaya-10-кондер",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Режим.МоющееСред",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "моющее",
+                  "caption": "Моющее",
+                  "hidden": false,
+                  "index": 5
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "моющееСред",
+              "relatedTo": "i-i-s-kursovaya-10-моющее-сред",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Режим.температуры",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "температура",
+                  "caption": "Температура",
+                  "hidden": false,
+                  "index": 6
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "температуры",
+              "relatedTo": "i-i-s-kursovaya-10-температуры",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "название",
+              "caption": "Название",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Режим",
+          "name": "режим",
+          "relatedTo": "i-i-s-kursovaya-10-режим",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

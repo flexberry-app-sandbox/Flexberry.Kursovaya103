@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-10-время-e",
+  "editForm": "i-i-s-kursovaya-10-время-e",
+  "external": false,
+  "caption": "Время",
+  "name": "IISKursovaya_10ВремяL",
+  "className": "ВремяL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-время",
+      "modelProjection": "ВремяL"
+    }
+  ]
+}

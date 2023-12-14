@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-10-сбои-e",
+  "editForm": "i-i-s-kursovaya-10-сбои-e",
+  "external": false,
+  "caption": "Сбои",
+  "name": "IISKursovaya_10СбоиL",
+  "className": "СбоиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-10-сбои",
+      "modelProjection": "СбоиL"
+    }
+  ]
+}

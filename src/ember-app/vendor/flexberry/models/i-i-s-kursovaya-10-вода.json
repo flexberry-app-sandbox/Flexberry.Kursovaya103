@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISKursovaya_10Вода",
+  "modelName": "i-i-s-kursovaya-10-вода",
+  "className": "Вода",
+  "nameSpace": "IIS.Kursovaya_10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "вода",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ВодаE",
+      "modelName": "i-i-s-kursovaya-10-вода",
+      "attrs": [
+        {
+          "name": "вода",
+          "caption": "Вода",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ВодаL",
+      "modelName": "i-i-s-kursovaya-10-вода",
+      "attrs": [
+        {
+          "name": "вода",
+          "caption": "Вода",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
