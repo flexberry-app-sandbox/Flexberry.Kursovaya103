@@ -27,7 +27,7 @@ namespace IIS.Kursovaya_10
 
     // *** End programmer edit section *** (МоющееСред CustomAttributes)
     [AutoAltered()]
-    [Caption("Моющее сред")]
+    [Caption("Моющее средство")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("МоющееСредE", new string[] {
             "Моющее as \'Моющее\'"})]
