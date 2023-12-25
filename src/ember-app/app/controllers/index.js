@@ -22,55 +22,55 @@ export default Controller.extend({
             link: 'i-i-s-kursovaya-10-вода-l',
             caption: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-вода-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-вода-l.title'),
-            icon: 'archive',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-kursovaya-10-список-програм-l',
             caption: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-список-програм-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-список-програм-l.title'),
-            icon: 'suitcase',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-kursovaya-10-сбои-l',
             caption: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-сбои-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-сбои-l.title'),
-            icon: 'edit',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-kursovaya-10-время-l',
             caption: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-время-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-время-l.title'),
-            icon: 'briefcase',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-kursovaya-10-кондер-l',
             caption: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-кондер-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-кондер-l.title'),
-            icon: 'book',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-kursovaya-10-режим-l',
             caption: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-режим-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-режим-l.title'),
-            icon: 'suitcase',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-kursovaya-10-отчет-l',
             caption: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-отчет-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-отчет-l.title'),
-            icon: 'phone',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-kursovaya-10-моющее-сред-l',
             caption: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-моющее-сред-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-моющее-сред-l.title'),
-            icon: 'phone',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-kursovaya-10-температуры-l',
             caption: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-температуры-l.caption'),
             title: i18n.t('forms.application.sitemap.kursovaya-10.i-i-s-kursovaya-10-температуры-l.title'),
-            icon: 'building',
+            icon: 'address card',
             children: null
           }]
         }
